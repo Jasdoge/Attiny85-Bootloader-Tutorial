@@ -1,6 +1,10 @@
 # Attiny85-Bootloader-Tutorial
 I recently got one of those cheap chinese attiny USB socket boards and discovered that in order to use the arduino IDE, you need to burn a bootloader onto it. I found a few tutorials online, but a lot of them felt incomplete or included redundant steps. 
 
+Video:
+
+[![View the making of here](https://img.youtube.com/vi/axagDO8AKSI/0.jpg)](https://www.youtube.com/watch?v=axagDO8AKSI)
+
 Here's how to burn a bootloader to an Attiny85 using an Arduino UNO:
 
 1. Install the Arduino IDE https://www.arduino.cc/en/Main/Software
