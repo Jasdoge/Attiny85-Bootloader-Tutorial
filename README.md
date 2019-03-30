@@ -1,5 +1,7 @@
 # Attiny85-Bootloader-Tutorial
-How to burn a bootloader to an Attiny85 using an Arduino UNO. Using one of those cheap chinese attiny USB socket boards.
+I recently got one of those cheap chinese attiny USB socket boards and discovered that in order to use the arduino IDE, you need to burn a bootloader onto it. I found a few tutorials online, but a lot of them felt incomplete or included redundant steps. 
+
+Here's how to burn a bootloader to an Attiny85 using an Arduino UNO:
 
 1. Install the Arduino IDE https://www.arduino.cc/en/Main/Software
 2. Install the digistump drivers https://github.com/digistump/DigistumpArduino/releases
@@ -37,3 +39,9 @@ After adding the bootloader, you can now upload via arduino. There's a testsketc
 3. In the arduino IDE, pick Digispark (Default - 16.5mhz). Port doesn't matter.
 4. Hit upload sketch.
 5. After compiling, the IDE will ask you to plug your attiny in. Do that, and the sketch will upload.
+
+
+Credits & sources:
+https://www.youtube.com/watch?v=FI3s4d2I1eQ
+https://create.arduino.cc/projecthub/arjun/programming-attiny85-with-arduino-uno-afb829
+https://digistump.com/board/index.php?topic=1841.0
